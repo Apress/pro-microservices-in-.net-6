@@ -1,0 +1,18 @@
+syntax = "proto3";
+ 
+option csharp_namespace = "microservice_map_info.Protos";
+ 
+package distance;
+ 
+service DistanceInfo {
+	rpc GetDistance (Cities) returns (DistanceData);
+}
+ 
+message Cities {
+	string originCity = 1;
+	string destinationCity = 2;
+}
+ 
+message DistanceData {
+	string miles = 1;
+}

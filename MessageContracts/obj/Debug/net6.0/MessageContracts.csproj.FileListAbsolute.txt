@@ -1,0 +1,12 @@
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\bin\Debug\net6.0\MessageContracts.deps.json
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\bin\Debug\net6.0\MessageContracts.dll
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\bin\Debug\net6.0\ref\MessageContracts.dll
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\bin\Debug\net6.0\MessageContracts.pdb
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\MessageContracts.csproj.AssemblyReference.cache
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\MessageContracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\MessageContracts.AssemblyInfoInputs.cache
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\MessageContracts.AssemblyInfo.cs
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\MessageContracts.csproj.CoreCompileInputs.cache
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\MessageContracts.dll
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\ref\MessageContracts.dll
+C:\projects\BookCode\Chapter5\MessageMicroservices\MessageContracts\obj\Debug\net6.0\MessageContracts.pdb

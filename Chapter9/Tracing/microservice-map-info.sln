@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microservice-map-info", "microservice-map-info\microservice-map-info.csproj", "{00817F77-0F4A-4309-92E7-9334B73A81D9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "microservice-map-tester", "microservice-map-tester\microservice-map-tester.csproj", "{64AC3F29-9656-4B51-8CED-B7799978CC0D}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{690AE2A1-D12B-4A50-8534-286E8C732DF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00817F77-0F4A-4309-92E7-9334B73A81D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00817F77-0F4A-4309-92E7-9334B73A81D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00817F77-0F4A-4309-92E7-9334B73A81D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00817F77-0F4A-4309-92E7-9334B73A81D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64AC3F29-9656-4B51-8CED-B7799978CC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64AC3F29-9656-4B51-8CED-B7799978CC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64AC3F29-9656-4B51-8CED-B7799978CC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64AC3F29-9656-4B51-8CED-B7799978CC0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{690AE2A1-D12B-4A50-8534-286E8C732DF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{690AE2A1-D12B-4A50-8534-286E8C732DF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{690AE2A1-D12B-4A50-8534-286E8C732DF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DF45C413-9955-431C-A718-1E7443E34C1E}
+	EndGlobalSection
+EndGlobal

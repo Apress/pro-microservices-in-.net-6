@@ -1,0 +1,25 @@
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+
+scrape_configs:
+  - job_name: prometheus
+    static_configs:
+    - targets:
+      - 'prometheus:9090'
+
+  - job_name: idonotexists
+    static_configs:
+    - targets:
+      - 'idonotexists:567'
+
+  - job_name: docker
+    scrape_interval: 5s
+    static_configs:
+    - targets:
+      - 'host.docker.internal:9323'
+
+  - job_name: microservice-map-info
+    static_configs:
+    - targets:
+      - 'microservice-map-info:80'

@@ -1,0 +1,48 @@
+version: '3.4'
+
+services:
+  microservice-map-info:
+    image: ${DOCKER_REGISTRY-}microservicemapinfo
+    build:
+      context: .
+      dockerfile: microservice-map-info/Dockerfile
+    environment:
+    - openTelemetry__jaegerHost=jaeger
+    - ASPNETCORE_ENVIRONMENT=Production
+    - ASPNETCORE_URLS=http://+:80/
+    ports:
+    - 80:80
+    depends_on:
+    - jaeger
+
+  microservice-map-tester:
+    image: ${DOCKER_REGISTRY-}microservicemaptester
+    build:
+      context: .
+      dockerfile: microservice-map-tester/Dockerfile
+    environment:
+    - mapInfoUrl=http://microservice-map-info
+    - openTelemetry__jaegerHost=jaeger
+    depends_on:
+    - microservice-map-info
+    - jaeger
+
+  jaeger:
+    image: jaegertracing/all-in-one
+    environment:
+    - BADGER_EPHEMERAL=false
+    - SPAN_STORAGE_TYPE=badger
+    - BADGER_DIRECTORY_VALUE=/badger/data
+    - BADGER_DIRECTORY_KEY=/badger/key
+    - BADGER_SPAN_STORE_TTL=8h
+    - COLLECTOR_ZIPKIN_HTTP_PORT=19411
+    volumes:
+    - badger_data:/badger/data
+    - badger_key:/badger/key
+    ports:
+    - 6831:6831/udp # Microservices publish events here
+    - 16686:16686 # Browse to http://localhost:16686/
+
+volumes:
+  badger_data:
+  badger_key:

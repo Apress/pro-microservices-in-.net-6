@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "microservice-map-info", "microservice-map-info\microservice-map-info.csproj", "{26967E8E-2DD2-4AD5-B40E-32FF608D2A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoogleMapInfo", "..\GoogleMapInfo\GoogleMapInfo.csproj", "{7ECF50D9-1998-4732-9F78-1AF0ABC86B57}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservice_gRPC_Tester", "..\Microservice_gRPC_Tester\Microservice_gRPC_Tester.csproj", "{220EE297-DA2C-49F7-9A0F-FFF00682AAF7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26967E8E-2DD2-4AD5-B40E-32FF608D2A28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26967E8E-2DD2-4AD5-B40E-32FF608D2A28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26967E8E-2DD2-4AD5-B40E-32FF608D2A28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26967E8E-2DD2-4AD5-B40E-32FF608D2A28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7ECF50D9-1998-4732-9F78-1AF0ABC86B57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7ECF50D9-1998-4732-9F78-1AF0ABC86B57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7ECF50D9-1998-4732-9F78-1AF0ABC86B57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7ECF50D9-1998-4732-9F78-1AF0ABC86B57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220EE297-DA2C-49F7-9A0F-FFF00682AAF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220EE297-DA2C-49F7-9A0F-FFF00682AAF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220EE297-DA2C-49F7-9A0F-FFF00682AAF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220EE297-DA2C-49F7-9A0F-FFF00682AAF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC819840-67B5-4C39-B52E-A5ECA3AF89A0}
+	EndGlobalSection
+EndGlobal

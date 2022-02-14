@@ -1,7 +1,0 @@
-services:
-  mywebapp:
-    image: <imagename>
-  mssql:
-    image: <imagename>
-  cb:
-    image: <imagename>

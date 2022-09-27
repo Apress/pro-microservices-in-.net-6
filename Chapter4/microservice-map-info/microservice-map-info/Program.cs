@@ -31,16 +31,13 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+app.UseRouting();
 app.UseAuthorization();
-
-app.MapControllers();
 
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapGrpcService<DistanceInfoService>();
     endpoints.MapControllers();
 });
-
 
 app.Run();

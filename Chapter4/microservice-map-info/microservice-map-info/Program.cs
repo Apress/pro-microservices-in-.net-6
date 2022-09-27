@@ -34,13 +34,12 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-app.MapControllers();
+app.UseRouting();
 
 app.UseEndpoints(endpoints =>
 {
     endpoints.MapGrpcService<DistanceInfoService>();
     endpoints.MapControllers();
 });
-
 
 app.Run();
